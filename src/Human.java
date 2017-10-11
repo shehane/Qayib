@@ -15,6 +15,11 @@ public class Human
         return height;
     }
 
+
+    public int getHeightSquare() {
+        return height*height;
+    }
+
     public void setHeight(int height) {
         this.height = height;
     }
